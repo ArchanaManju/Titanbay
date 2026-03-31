@@ -1,0 +1,44 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests / Coverage
+coverage/
+.nyc_output/
+
+# Cache / temp
+.cache/
+tmp/
+
+# Linters / tooling
+.eslintcache
+
+# Optional: lockfile handling
+# package-lock.json   # usually commit lockfiles for apps; uncomment this line only if you intentionally want to ignore it
